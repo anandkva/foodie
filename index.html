@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+    <title>Food Bestie</title>
+</head>
+
+<body>
+    <div class="foodie">
+        <div class="banner">
+            <div class="hero-text">
+                <h1 class="title">Food Bestie</h1>
+                <h4>Discover the best food & drinks you door step</h4>
+            </div>
+            <div class="search-box">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <select class="form-control" id="cities">
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chandigarh">Chandigarh</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                <option value="Daman and Diu">Daman and Diu</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Puducherry">Puducherry</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Odisha">Odisha</option>
+                                <option value="Punjab">Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Search for restaurant or food" id="food">
+                    </div>
+                    <button class="btn btn-outline-primary" type="button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-page">
+                <div class="row foodview" style="margin: auto;">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top"
+                                src="https://st2.depositphotos.com/3147737/5188/i/600/depositphotos_51888195-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Biriyani</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="rating">5 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Thinduakal Thalapakatti Rs.350</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top" src="./asset/images/food1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Dosa</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="rating">4.5 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>South Indian Dosa Rs.100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top"
+                                src="https://t3.ftcdn.net/jpg/03/62/02/26/360_F_362022640_fZ6UM0JycJlFDdBiR1pYlNddKfdGvYwR.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Idly</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="rating">4.3 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>3 idly Rs.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top" src="https://www.watscooking.com/images/dish/normal/1771.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Full Meals</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="rating">4.5 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>South Indian style Sambar Rs.150</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top" src="https://recipesofhome.com/wp-content/uploads/2020/06/veg-fried-rice-recipe.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Veg-fired rice</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="low-rating">3.9 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Pure veg Rs.80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top" src="https://d1uz88p17r663j.cloudfront.net/original/984a2927c718b0e9d01160918cb2f1f1_A42I2385.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Chiken-fried rice</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="rating">4.8 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Chines Rs.120</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top" src="https://cdn.cdnparenting.com/articles/2020/02/26160524/Rava-Dosa-Recipe.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Rava Dosa</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="low-rating">3.5 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>South Indian Dosa Rs.100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top" src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Divya_Shivaraman_/Onion_Tomato_Podi_Masala_Dosa.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Onion Dosa</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="rating">4.5 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>South Indian Dosa Rs.100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 foodlist">
+                        <div class="card cardhover">
+                            <img class="card-img-top" src="https://c1.staticflickr.com/3/2943/33676572342_35a879fd5d_o.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Podi Dosa</h4>
+                                    </div>
+                                    <div class="col">
+                                        <p class="rating">4.5 <i class="fa fa-star" style="font-size: 10px;"></i></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>South Indian Dosa Rs.100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer">
+                <h4 style="text-align: left;">Food Bestie</h4>
+                <hr>
+                <p style="text-align: left;">By continuing past this page, you agree to our Terms of Service, Cookie
+                    Policy,
+                    Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
+                    2021 © FoodBestie™ Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
