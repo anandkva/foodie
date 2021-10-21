@@ -49,23 +49,48 @@
     transition: .5s;
 }
 .rating {
+    width: 50px;
     color: white;
     text-align: center;
     background-color: rgb(2, 114, 35);
     border-radius: 30px;
 }
 .low-rating {
+    width: 50px;
     color: white;
     text-align: center;
     background-color: rgb(199, 59, 4);
     border-radius: 30px;
 }
-
 .footer {
     text-align: center;
- }
+}
+.showcase {
+    width: 100%;
+    background-image: url("./asset/images/coverimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titlecase {
+    padding: 20px;
+    width: 100%;
+}
+.contentcase {
+    margin: auto;
+    width: 80%;
+}
 
- 
+.list-image {
+    width: 120px;
+}
+.hero-image {
+    width: 600px;
+}
+.card-link, .card-link:hover{
+    color: black;
+    text-decoration: none;
+}
 @media screen and (max-width: 900px) {
     .search-box {
         font-size: 10px;
